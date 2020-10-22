@@ -11,6 +11,7 @@ class order_products extends Seeder
      */
     public function run()
     {
-        //
+        /*$ofc = factory(App\Order_Product::class, 10)->create();
+        return $ofc;*/
     }
 }

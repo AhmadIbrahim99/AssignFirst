@@ -11,6 +11,7 @@ class payments extends Seeder
      */
     public function run()
     {
-        //
+       /* $ofc = factory(App\Payment::class, 10)->create();
+        return $ofc;*/
     }
 }

@@ -11,6 +11,7 @@ class productLine extends Seeder
      */
     public function run()
     {
-        //
+       /* $ofc = factory(App\Productine::class, 10)->create();
+        return $ofc;*/
     }
 }
