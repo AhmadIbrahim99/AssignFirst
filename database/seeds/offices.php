@@ -11,6 +11,7 @@ class offices extends Seeder
      */
     public function run()
     {
-        //
+        $ofc = factory(App\Office::class, 10)->create();
+        return $ofc;
     }
 }
