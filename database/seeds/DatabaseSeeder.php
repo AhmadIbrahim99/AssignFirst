@@ -20,6 +20,6 @@ class DatabaseSeeder extends Seeder
         $this->call(payments::class);
         $this->call(productLine::class);
         $this->call(products::class);
-
+        $this->call(user_seeder::class);
     }
 }
